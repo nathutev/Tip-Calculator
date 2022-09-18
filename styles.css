@@ -1,0 +1,73 @@
+#title, #text, #buttons, #tip, #total {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center
+
+}
+
+#text {
+  margin-left: 10px;
+}
+
+#ten, #fifteen, #twentyFive, #thirty {
+  margin: 2px 0px 17px 3px;
+  background-color: #06af22;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  transition: opacity 0.15s;
+}
+
+#ten:hover, #fifteen:hover, #twentyFive:hover, #thirty:hover {
+  opacity: 0.8;
+}
+
+#ten:active, #fifteen:active, #twentyFive:active, #thirty:active {
+  opacity: 0.6;
+}
+
+.input {
+  margin: 10px 0px 0px 0px; 
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70, 70, 70);
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  display: block;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  display: block;
+  border: none;
+  outline: black 2px solid;
+
+  transition: outline 0.15s;
+
+}
+
+.input:focus{
+  outline: black 5px solid;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  -moz-appearance: textfield;
+}
