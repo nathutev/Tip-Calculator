@@ -3,9 +3,9 @@ document.getElementById("ten").onclick = function(){
 
   let userInput = Number(document.getElementById("input").value);
   let percent10 = userInput / 100;
-  let result10 = userInput + (percent10 * 10);
+  let result10 = Math.round(userInput + (percent10 * 10));
 
-  tip.textContent += percent10 * 10;
+  tip.textContent += Math.round(percent10 * 10);
   total.textContent += result10;
 }
 
@@ -14,8 +14,9 @@ document.getElementById("fifteen").onclick = function(){
   
   let userInput = Number(document.getElementById("input").value);
   let percent15 = userInput / 100;
-  let result15 = userInput + (percent15 * 15);
-  tip.textContent += percent15 * 15;
+  let result15 = Math.round(userInput + (percent15 * 15));
+  
+  tip.textContent += Math.round(percent15 * 15);
   total.textContent += result15;
 }
 
@@ -24,9 +25,9 @@ document.getElementById("twentyFive").onclick = function(){
 
   let userInput = Number(document.getElementById("input").value);
   let percent25 = userInput / 100;
-  let result25 = userInput + (percent25 * 25);
+  let result25 = Math.round(userInput + (percent25 * 25));
 
-  tip.textContent += percent25 * 25;
+  tip.textContent += Math.round(percent25 * 25);
   total.textContent += result25;
 }
 
@@ -35,9 +36,9 @@ document.getElementById("thirty").onclick = function(){
 
   let userInput = Number(document.getElementById("input").value);
   let percent30 = userInput / 100;
-  let result30 = userInput + (percent30 * 30);
+  let result30 = Math.round(userInput + (percent30 * 30));
 
-  tip.textContent += percent30 * 30;
+  tip.textContent += Math.round(percent30 * 30);
   total.textContent += result30;
 }
 

@@ -9,8 +9,8 @@
 }
 
 #ten, #fifteen, #twentyFive, #thirty {
-  margin: 2px 0px 17px 3px;
-  background-color: #06af22;
+  margin: 5px 0px 17px 3px;
+  background-color: #8c31b0;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -26,6 +26,7 @@
   transition: opacity 0.15s;
 }
 
+
 #ten:hover, #fifteen:hover, #twentyFive:hover, #thirty:hover {
   opacity: 0.8;
 }
@@ -35,7 +36,7 @@
 }
 
 .input {
-  margin: 10px 0px 0px 0px; 
+  margin: 6px 0px 0px 0px; 
   margin-right: auto;
   margin-left: auto;
   font-family: Arial, Helvetica, sans-serif;
@@ -70,4 +71,12 @@ input::-webkit-inner-spin-button {
 
 input {
   -moz-appearance: textfield;
+}
+
+#note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 8px;
+  color: grey;
 }
